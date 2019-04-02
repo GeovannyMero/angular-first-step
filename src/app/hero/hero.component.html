@@ -1,0 +1,4 @@
+<h1>[{{hero.id}}]{{hero.name + ' ' + hero.lastName | uppercase}}</h1>
+<input [(ngModel)] = 'hero.name'/>
+<input [(ngModel)] = 'hero.lastName'/>
+<input type= 'button' (click)="save()" value="save"/>
