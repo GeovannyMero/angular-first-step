@@ -1,0 +1,9 @@
+<div>
+  <h3>Heroes</h3>
+  <!--<h1>{{heroes | json}}</h1>-->
+  <ul class="heroes">
+    <li *ngFor = 'let hero of heroes'>
+      <span class="badge">{{hero.id}}</span> {{hero.name + ' ' + hero.lastName}}
+    </li>
+  </ul>
+</div>
